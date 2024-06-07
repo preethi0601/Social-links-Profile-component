@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: inter;
+    font-weight: 400;
+}
+
+.main-component {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    height: 80vh;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-holder{
+    margin-bottom: 2px;
+    text-align: center;
+    margin-top: 15px;
+    img{
+        clip-path: circle();
+        height: 100px;
+    }
+}
+
+.about {
+    display: grid;
+    grid-template-rows: 15% 30%;
+    margin: 2px;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.place {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.about-info {
+    display: grid;
+    grid-template-rows: 30% 40%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+.social-media-column {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    align-items: center;
+    margin-left: 4rem;
+  p {  
+        text-align: center;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 3.25rem;
+        width: 150%;
+        font-weight: 700;
+        margin-bottom: 1px;
+    }
+
+    p:hover {
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 8%);
+    }
+}
